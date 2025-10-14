@@ -1,0 +1,78 @@
+.instructor div{
+    list-style: none;
+    cursor: pointer;
+}
+.instructor{
+    display: flex;
+    height: 50px;
+    column-gap: 50px;
+    padding-top: 1%;
+    justify-content: center;
+}
+.instructorcontainer{
+    display: flex;
+}
+
+.animate__animated,
+.displayitems{
+    width: 200px;
+}
+
+.animate__animated ul{
+    padding-left: 0%;
+}
+
+.fas{
+    cursor: pointer;
+}
+.sidebarcontents{
+    /* background-color: blue; */
+}
+.coursepageins{
+    border: 1px solid black;
+}
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content p {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content p:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .createasses{
+      height: 40px;
+      background-color: rgb(0, 0, 90);
+      width: 100px;
+      color: white;
+      text-align: center;
+      padding-top: 5px;
+  }
+@media (max-width: 400px) {
+    .instructor{
+        column-gap: 30px;
+        justify-content: center;
+    }
+}

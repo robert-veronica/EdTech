@@ -1,0 +1,74 @@
+.pretestbox,
+.posttestbox{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+}
+.sessioncontents{
+    display: flex;
+    column-gap: 10px;
+}
+
+.knowledgecontents{
+    flex-wrap: wrap;
+}
+.knowledgecontents .pretestbox{
+    margin: 5px;
+}
+.coursecontainerbox{
+    display: flex;
+    flex-direction: row;
+}
+.video{
+    flex: 0.7;
+    /* border: 1px solid black; */
+    padding: 5px;
+    height: max-content;
+}
+.sessionvideos{
+    border: 1px solid black;
+}
+.course_sessions{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-top: 5px;
+}
+.course_sessions ul li{
+    list-style: none;
+    border: 1px solid black;
+    padding-left: 5px;
+    height: 30px;
+    margin-top: 5px;
+}
+.course_sessions ul li:hover{
+    background-color: rgb(2, 2, 82);
+    color: white;
+}
+.sessionvideos{
+    flex: 0.3;
+    margin-left: 2%;
+    padding: 10px;
+}
+.video video{
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .sessioncontents{
+        display: flex;
+        flex-direction: column;
+    }
+    .pretestbox,.posttestbox{
+        width: 100%;
+        margin: 5px;
+        height: 300px;
+    }
+    .coursecontainerbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .sessionvideos{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+}

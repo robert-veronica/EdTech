@@ -1,0 +1,12 @@
+.rowline{
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: space-between; */
+    /* border: 1px solid black; */
+}
+.rowlinehead{
+    /* border-top: 1px solid black; */
+}
+.searchemployee{
+    border: 1px solid black;
+}
