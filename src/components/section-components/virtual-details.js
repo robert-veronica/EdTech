@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import parse from "html-react-parser";
-import Knowledgebank from "./knowledgebank";
-import CoursePage from "./course-page";
+// import parse from "html-react-parser";
+// import Knowledgebank from "./knowledgebank";
+// import CoursePage from "./course-page";
 class VirtualDetails extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    // let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
       <div className="course-single-area pd-top-120 pd-bottom-90">
@@ -166,7 +166,7 @@ class VirtualDetails extends Component {
                     aria-labelledby="tab3-tab"
                   >
                     <div className="course-details-content">
-                      <Knowledgebank />
+                      {/* <Knowledgebank /> */}
                     </div>
                   </div>
                   <div

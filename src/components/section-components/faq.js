@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import { Link } from 'react-router-dom';
+// import parse from 'html-react-parser';
 
 class Faq extends Component {
 
 	render() {
 
-		let publicUrl = process.env.PUBLIC_URL + '/'
+		// let publicUrl = process.env.PUBLIC_URL + '/'
 
 		return <div className="faq-area pd-top-120">
 			<div className="container">
@@ -15,8 +15,9 @@ class Faq extends Component {
 						<div className="about-area-inner">
 							<div className="section-title mb-0">
 								<h2 className="title mt-0">FAQs</h2>
-								<p className="content">Have ipsum dolor sit amet, elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo et ea rebum.</p>
+								<p className="content">We are available 24/7 to help you solve your doubts. You can use our live chatbot for instant answers, reach out via email, or directly connect with a mentor or trainer for personalized guidance whenever you need it.</p>
 								<div className="row">
+
 									<div className="col-sm-6">
 										<ul className="single-list-wrap">
 											<li className="single-list-inner style-check-box bg-light-green p-3 b-radius-5">
@@ -25,28 +26,66 @@ class Faq extends Component {
 														<i className="fa fa-check" />
 													</div>
 													<div className="media-body">
-														<h5>1200+</h5>
-														<p>Learners &amp; counting</p>
+														<h5>128+</h5>
+														<p>Hours Of Technical Training</p>
 													</div>
 												</div>
 											</li>
 										</ul>
 									</div>
+
 									<div className="col-sm-6">
 										<ul className="single-list-wrap">
 											<li className="single-list-inner style-check-box bg-light-green p-3 b-radius-5">
+
 												<div className="media">
 													<div className="media-left mr-0">
 														<i className="fa fa-check" />
 													</div>
 													<div className="media-body">
-														<h5>350+</h5>
-														<p>Learners &amp; counting</p>
+														<h5>25</h5>
+														<p>Mentors</p>
 													</div>
 												</div>
 											</li>
 										</ul>
 									</div>
+
+									<div className="col-sm-6">
+										<ul className="single-list-wrap">
+											<li className="single-list-inner style-check-box bg-light-green p-3 b-radius-5">
+
+												<div className="media">
+													<div className="media-left mr-0">
+														<i className="fa fa-check" />
+													</div>
+													<div className="media-body">
+														<h5>32+</h5>
+														<p>Workshops</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+									<div className="col-sm-6">
+										<ul className="single-list-wrap">
+											<li className="single-list-inner style-check-box bg-light-green p-3 b-radius-5">
+
+												<div className="media">
+													<div className="media-left mr-0">
+														<i className="fa fa-check" />
+													</div>
+													<div className="media-body">
+														<h5>10</h5>
+														<p>Tech Savy Trainers</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+
 								</div>
 							</div>
 						</div>
@@ -57,14 +96,14 @@ class Faq extends Component {
 								<div className="card-header" id="ff-one">
 									<h5 className="mb-0">
 										<button className="btn-link" data-toggle="collapse" data-target="#f-one" aria-expanded="true" aria-controls="f-one">
-											01.  What does you simply dummy in do ?
+											01.  Who can we apply for the live program and are there any prerequisites?
 											<i className="fa fa-eye" />
 										</button>
 									</h5>
 								</div>
 								<div id="f-one" className="show collapse" aria-labelledby="ff-one" data-parent="#accordion">
 									<div className="card-body">
-										What does you dummy text of free available in market printing has industry been industry's standard dummy text ever.
+										Students studing in BCA, MCA, Diploma Courses, Degree Courses, etc. who are interested in learning MERN stack are welcome. There is no prerequisites for this course.
 									</div>
 								</div>
 							</div>
@@ -72,14 +111,14 @@ class Faq extends Component {
 								<div className="card-header" id="ff-two">
 									<h5 className="mb-0">
 										<button className="btn-link collapsed" data-toggle="collapse" data-target="#f-two" aria-expanded="true" aria-controls="f-two">
-											02.  What graphics dummy of free  design ?
+											02.  What is mode of payment?
 											<i className="fa fa-eye" />
 										</button>
 									</h5>
 								</div>
 								<div id="f-two" className="collapse" aria-labelledby="ff-two" data-parent="#accordion">
 									<div className="card-body">
-										What graphics simply dummy text of free available in market printing industry has been industry's standard dummy text ever.
+										We accept payment though UPI, G-pay, Paytm, bank transfer , NEFT etc
 									</div>
 								</div>
 							</div>
@@ -87,14 +126,14 @@ class Faq extends Component {
 								<div className="card-header" id="ff-three">
 									<h5 className="mb-0">
 										<button className="btn-link collapsed" data-toggle="collapse" data-target="#f-three" aria-expanded="true" aria-controls="f-three">
-											03.  Why we are the best ?
+											03.  Is there EMI option available?
 											<i className="fa fa-eye" />
 										</button>
 									</h5>
 								</div>
 								<div id="f-three" className="collapse" aria-labelledby="ff-three" data-parent="#accordion">
 									<div className="card-body">
-										Why we are dummy text of free available in market printing industry has been industry's standard dummy text ever.
+										Yes, we are providing a 6 Month EMI option.
 									</div>
 								</div>
 							</div>
@@ -102,14 +141,30 @@ class Faq extends Component {
 								<div className="card-header" id="ff-four">
 									<h5 className="mb-0">
 										<button className="btn-link collapsed" data-toggle="collapse" data-target="#f-four" aria-expanded="true" aria-controls="f-four">
-											04.  What industries dummy covered ?
+											04.  I have completed my course ! Now what ??
 											<i className="fa fa-eye" />
 										</button>
 									</h5>
 								</div>
 								<div id="f-four" className="collapse" aria-labelledby="ff-four" data-parent="#accordion">
 									<div className="card-body">
-										What industries text of free available in market printing industry has been industry's standard dummy text ever.
+										We provide paid internship Opportunities in Rebert Technologies Pvt. Ltd. having a proper designation.
+									</div>
+								</div>
+							</div>
+
+							<div className="card single-faq-inner">
+								<div className="card-header" id="ff-four">
+									<h5 className="mb-0">
+										<button className="btn-link collapsed" data-toggle="collapse" data-target="#f-four" aria-expanded="true" aria-controls="f-four">
+											05. Will the resources be available for life time?
+											<i className="fa fa-eye" />
+										</button>
+									</h5>
+								</div>
+								<div id="f-four" className="collapse" aria-labelledby="ff-four" data-parent="#accordion">
+									<div className="card-body">
+										Yes, you can have access to all the study material.
 									</div>
 								</div>
 							</div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+// import { Link } from 'react-router-dom';
+// import parse from 'html-react-parser';
 
 class TestimonialV4 extends Component {
 
@@ -29,7 +29,7 @@ class TestimonialV4 extends Component {
 								</div>
 								<div className="media-body align-self-center">
 									<h6>Ananya Rao </h6>
-									<p>B.Tech (CSE), Symbiosis Institute of Technology</p>
+									<p>B.Tech (CSE), SIT</p>
 								</div>
 							</div>
 						</div>
@@ -37,7 +37,7 @@ class TestimonialV4 extends Component {
 					<div className="item">
 						<div className="single-testimonial-inner">
 							<span className="testimonial-quote"><i className="fa fa-quote-right" /></span>
-							<p>Rebert’s program gave me hands-on experience with live data projects and exposure to cutting-edge technologies in AI and ML. The research-based approach, combined with soft-skill and aptitude sessions, made me confident for both interviews and real-world problem-solving. I also got to work on a live internship project that I later showcased in my portfolio — the experience felt genuinely industry-grade</p>
+							<p>The MERN Stack track at Rebert was extremely well-structured. Every week we had tests, assignments, and workshops that simulated industry challenges. The mentors were patient and approachable — even outside sessions, the 24/7 chatbot helped me resolve technical issues. What stood out most was the balance between technical training and personal growth — from communication skills to career counselling, everything was covered</p>
 							<div className="media testimonial-author">
 								<div className="media-left">
 									<img src={publicUrl + "assets/img/testimonial/2.png"} alt="img" />

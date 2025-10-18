@@ -26,11 +26,15 @@ class Footer_v2 extends Component {
 								<div className="widget widget_about text-center">
 									<a href="index.html"><img src={publicUrl + "assets/img/logo-x.webp"} alt="img" /></a>
 									<div className="details">
-										<p>Rebert Technologies Pvt. Ltd. is a leading software development team with years of experience working
-											on different packages for a variety of businesses. Whether you are after a simple software for collection
-											results or a complex one for statistical analysis, we have you covered. We currently operate locally,
-											helping clients to grow their businesses. You can get in touch with us through our booking form – we look
-											forward to hearing from you and can't wait to help you.</p>
+										<p>Rebert Technologies Pvt. Ltd.
+											is a leading software development
+											team with 2+ years of experience
+											delivering solutions for
+											businesses of all sizes.
+											From simple result-collection software to
+											complex statistical tools, we’ve got you covered.
+											We operate locally, helping clients grow,
+											and are ready to assist you.</p>
 									</div>
 								</div>
 							</div>
@@ -39,7 +43,7 @@ class Footer_v2 extends Component {
 									<h4 className="widget-title">Contact Us</h4>
 									<ul className="details">
 										<li><i className="fa fa-map-marker" /> Pune, Maharashtra</li>
-										<li><i className="fa fa-envelope" /> admin@rebert.inm</li>
+										<li><i className="fa fa-envelope" /> admin@rebert.in</li>
 										<li><i className="fa fa-phone" /> +91 9922772959
 											<li></li> +91 7798992484</li>
 									</ul>

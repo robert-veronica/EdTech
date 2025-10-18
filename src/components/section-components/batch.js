@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./CSS/batch.css";
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -36,7 +36,7 @@ function Batch() {
 
 
 
-      axios.get('http://localhost:5000/course/all')
+    axios.get('http://localhost:5000/course/all')
       .then(response => {
         console.log("All Courses API");
         console.log(response.data);
@@ -121,11 +121,11 @@ function Batch() {
 
     // Temp will contain id's of all selected employees
     console.log(temp);
-    const data={
-      batch_name:batch_name,
-      course_id:AssignCourseID,
-      trainer_id:"df3243sdfd",
-      employee_id:temp
+    const data = {
+      batch_name: batch_name,
+      course_id: AssignCourseID,
+      trainer_id: "df3243sdfd",
+      employee_id: temp
     }
     console.log(data);
     axios(
@@ -139,9 +139,9 @@ function Batch() {
         console.log(res);
         setBatch_name("");
 
-        temp=[...AllEmployees];
+        temp = [...AllEmployees];
         for (let i = 0; i < temp.length; i++) {
-            temp[i].isSelected=false;
+          temp[i].isSelected = false;
         };
         setAllEmployees(temp);
 
@@ -152,7 +152,7 @@ function Batch() {
         // option.style.display="none";
         // x.add(option, x[0]);
 
-        
+
         toast.success('New Batch Created Successfully', {
           position: "top-right",
           autoClose: 3000,
@@ -428,18 +428,18 @@ function Batch() {
             
             </div> */}
             </div>
-            
-            <input type="text" className="form-control mt-5" placeholder="Batch Name" id="exampleInputEmail1" value={batch_name} onChange={(e)=>{setBatch_name(e.target.value)}} required />
+
+            <input type="text" className="form-control mt-5" placeholder="Batch Name" id="exampleInputEmail1" value={batch_name} onChange={(e) => { setBatch_name(e.target.value) }} required />
             <label for="sel1" className="mt-3">Assign Course:</label>
-            <select class="form-control" id="assigncourseselect" required  value={AssignCourseID} onChange={(e)=>{setAssignCourseID(e.target.value);console.log(AssignCourseID);}}>
+            <select class="form-control" id="assigncourseselect" required value={AssignCourseID} onChange={(e) => { setAssignCourseID(e.target.value); console.log(AssignCourseID); }}>
               {/* <option disabled selected hidden>Select</option> */}
-              <option style={{display:"none"}}></option>
+              <option style={{ display: "none" }}></option>
               {/* <option>1</option>
               <option>2</option>
               <option>3</option>
               <option>4</option> */}
               {
-                AllCourses.map((data,i)=>{
+                AllCourses.map((data, i) => {
                   return <option value={data._id}>
                     {data.course_name} ({data.mode})
                   </option>

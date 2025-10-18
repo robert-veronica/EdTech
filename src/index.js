@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
-import HomeV1 from './components/home-v1';
-import HomeV2 from './components/home-v2';
+import { HashRouter, Route, Switch } from "react-router-dom";
+// import HomeV1 from './components/home-v1';
+// import HomeV2 from './components/home-v2';
 import HomeV3 from './components/home-v3';
 import Course from './components/course';
 import CourseDetails from './components/course-details';
@@ -21,7 +21,7 @@ import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
 import Vclassroom from './components/section-components/vclassroom';
 import Virtual from "./components/virtual";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -50,6 +50,7 @@ class Root extends Component {
                         <Route path="/contact" component={Contact} />
                         <Route path="/blog" component={Blog} />
                         <Route path="/blog-details" component={BlogDetails} />
+
 
                     </Switch>
                 </div>

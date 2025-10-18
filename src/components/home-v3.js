@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './global-components/navbar-v3';
 import Banner from './section-components/banner-v3';
 import Intro from './section-components/intro-v3';
-import FeaturedCourse from './section-components/course-featured-v2';
+// import FeaturedCourse from './section-components/course-featured-v2';
 import AboutV4 from './section-components/about-v4';
 import AboutV5 from './section-components/about-v5';
 // import Team from './section-components/team-v2';
@@ -13,7 +13,7 @@ const Home_V2 = () => {
         <Navbar />
         <Banner />
         <Intro />
-        <FeaturedCourse />
+        {/* <FeaturedCourse /> */}
         <AboutV4 />
         <AboutV5 />
         {/* <Team /> */}

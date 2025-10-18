@@ -1,10 +1,10 @@
 import React, { Component, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import { Link } from "react-router-dom";
+// import parse from "html-react-parser";
 import "./CSS/admin.css";
-import { toBeChecked } from "@testing-library/jest-dom";
+// import { toBeChecked } from "@testing-library/jest-dom";
 import axios from 'axios';
-import { Redirect, useHistory } from 'react-router-dom';
+// import { Redirect, useHistory } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -117,7 +117,7 @@ function Admin() {
     console.log("pretest: " + ispretest);
     console.log("posttest: " + isposttest);
     var data = {
-      course_name:course_name,
+      course_name: course_name,
       mode: "virtual",
       ispretest: ispretest,
       isposttest: isposttest,
@@ -189,7 +189,7 @@ function Admin() {
     console.log("TempSessions", tempsessions);
     console.log(arrayofvideocount)
     var data = {
-      course_name:course_name,
+      course_name: course_name,
       mode: "elearning",
       // no_of_sessions:sessionlist.length,
       // no_of_videos_per_session:arrayofvideocount,
@@ -440,10 +440,10 @@ function Admin() {
               <div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Course Name</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" value={course_name} onChange={(e)=>{setCourse_name(e.target.value);console.log(course_name);}} aria-describedby="emailHelp" required />
+                  <input type="text" class="form-control" id="exampleInputEmail1" value={course_name} onChange={(e) => { setCourse_name(e.target.value); console.log(course_name); }} aria-describedby="emailHelp" required />
                 </div>
-                  Enter mode of the course &nbsp;
-                  <select
+                Enter mode of the course &nbsp;
+                <select
                   class="form-select" aria-label="Default select example"
                   onChange={(e) => {
                     if (e.target.value) {
@@ -476,7 +476,7 @@ function Admin() {
                         onChange={(e) => { setIspretest(!ispretest); console.log(e.target.value); }}
                       />
                       <br />
-                        Post-test <input type="checkbox"
+                      Post-test <input type="checkbox"
                         value={isposttest}
                         onChange={(e) => { setIsposttest(!isposttest) }}
                       />

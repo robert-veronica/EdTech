@@ -1,10 +1,10 @@
 import React, { Component, useState } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import { Link } from "react-router-dom";
+// import parse from "html-react-parser";
 
 class Createcourse extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    // let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
       <div className="coursebag pd-top-60 pd-bottom-120">
@@ -57,7 +57,7 @@ class Createcourse extends Component {
           </form>
         </div>
         <hr />{" "}
-        
+
       </div>
     );
   }

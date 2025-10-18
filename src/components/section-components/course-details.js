@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // import parse from "html-react-parser";
-import Knowledgebank from "./knowledgebank";
+import FeesStructure from "./feesStructure";
 // import CoursePage from "./course-page";
 class CourseDetails extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    // let publicUrl = process.env.PUBLIC_URL + "/";
 
     return (
       <div className="course-single-area pd-top-120 pd-bottom-90">
@@ -59,7 +59,7 @@ class CourseDetails extends Component {
                         aria-controls="tab3"
                         aria-selected="false"
                       >
-                        Knowledge Bank
+                        Fees Structure
                       </a>
                     </li>
                     <li className="nav-item">
@@ -149,7 +149,7 @@ class CourseDetails extends Component {
                     aria-labelledby="tab3-tab"
                   >
                     <div className="course-details-content">
-                      <Knowledgebank />
+                      <FeesStructure />
                     </div>
                   </div>
                   <div
@@ -197,7 +197,12 @@ class CourseDetails extends Component {
                     </li>
                     <li>
                       <i className="fa fa-clipboard" />
-                      <span>Doubt Solving Sessions :</span> 8 hrs
+                      <span>Doubt Solving Sessions :</span> 60 hours
+                    </li>
+
+                    <li>
+                      <i className="fa fa-clipboard" />
+                      <span>Technical Help :</span> 24/7 Chatbot
                     </li>
 
                     <li>
@@ -210,9 +215,14 @@ class CourseDetails extends Component {
                       <span>Industry Workshops :</span> 32
                     </li>
 
-                    <li>
+                    {/* <li>
                       <i className="fa fa-clipboard" />
                       <span>Trainer:</span> Ethan Dean
+                    </li> */}
+
+                    <li>
+                      <i className="fa fa-clipboard" />
+                      <span>Batch Size:</span> 25 students per cohort
                     </li>
                   </ul>
 

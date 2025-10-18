@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import parse from "html-react-parser";
+// import { Link } from "react-router-dom";
+// import parse from "html-react-parser";
 import "./CSS/coursecontent.css";
 
 class CoursePage extends Component {
@@ -19,43 +19,43 @@ class CoursePage extends Component {
 				</div>
 			</div> */}
           <div className="video">
-			  <h4>Video 1</h4>
+            <h4>Video 1</h4>
             <video src={publicUrl + "assets/img/video.mp4"} autoPlay></video>
           </div>
           <div className="sessionvideos">
-			<h3>Course Name</h3>
+            <h3>Course Name</h3>
             <div className="course_sessions">
-			<h4>Session 1</h4>
-            <ul>
-              <li>Pretest</li>
-              <li>Video 1</li>
-              <li>Video 2</li>
-              <li>Posttest</li>
-            </ul>
-			</div>
+              <h4>Session 1</h4>
+              <ul>
+                <li>Pretest</li>
+                <li>Video 1</li>
+                <li>Video 2</li>
+                <li>Posttest</li>
+              </ul>
+            </div>
             <div className="course_sessions">
-			<h4>Session 2</h4>
-            <ul>
-              <li>Pretest</li>
-              <li>Video 1</li>
-              <li>Video 2</li>
-              <li>Posttest</li>
-            </ul>
-			</div>
+              <h4>Session 2</h4>
+              <ul>
+                <li>Pretest</li>
+                <li>Video 1</li>
+                <li>Video 2</li>
+                <li>Posttest</li>
+              </ul>
+            </div>
             <div className="course_sessions">
-			<h4>Session 3</h4>
-            <ul>
-              <li>Pretest</li>
-              <li>Video 1</li>
-              <li>Video 2</li>
-              <li>Posttest</li>
-            </ul>
-			</div>
+              <h4>Session 3</h4>
+              <ul>
+                <li>Pretest</li>
+                <li>Video 1</li>
+                <li>Video 2</li>
+                <li>Posttest</li>
+              </ul>
+            </div>
             <div className="course_sessions">
-            <ul>
-              <li>Feedback</li>
-            </ul>
-			</div>
+              <ul>
+                <li>Feedback</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
