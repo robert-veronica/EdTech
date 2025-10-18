@@ -113,7 +113,7 @@ class Footer_v1 extends Component {
 									</li>
 								</ul>
 
-								<div className="group-lg group-middle">
+								{/* <div className="group-lg group-middle">
 									<a
 										href={`${publicUrl}public/Privacy Policy.pdf`}
 										target="_blank"
@@ -138,7 +138,7 @@ class Footer_v1 extends Component {
 									>
 										View Terms & Conditions
 									</a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>

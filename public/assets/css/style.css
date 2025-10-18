@@ -1994,7 +1994,7 @@ ul {
 }
 
 .navbar-area-3.sticky-active {
-  background: var(--heading-color);
+  background: #FFF;
   border-bottom: 0;
 }
 
