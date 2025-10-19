@@ -22,6 +22,8 @@ import BlogDetails from './components/blog-details';
 import Vclassroom from './components/section-components/vclassroom';
 import Virtual from "./components/virtual";
 import { ToastContainer } from 'react-toastify';
+import Trainers from './components/trainers';
+import Mentors from './components/mentors';
 
 
 
@@ -50,6 +52,8 @@ class Root extends Component {
                         <Route path="/contact" component={Contact} />
                         <Route path="/blog" component={Blog} />
                         <Route path="/blog-details" component={BlogDetails} />
+                        <Route path="/trainers" component={Trainers} />
+                        <Route path="/mentors" component={Mentors} />
 
 
                     </Switch>

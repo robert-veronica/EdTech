@@ -61,13 +61,15 @@ class NavbarV3 extends Component {
 
                 <li><Link to="/course-details">E-Learning</Link></li>
 
-                {/* <li>
-                  <Link to="/contact">Contact Us</Link>
-                </li> */}
-                {/* <li>
-                  <Link to="/sign-up">Sign Up</Link>
-                </li>
                 <li>
+                  <Link to="/trainers">Our Trainers</Link>
+                </li>
+
+                <li>
+                  <Link to="/mentors">Our Mentors</Link>
+                </li>
+
+                {/* <li>
                   <Link to="/sign-in">Sign In</Link>
                 </li>
                 <li>
@@ -75,7 +77,7 @@ class NavbarV3 extends Component {
                 </li>
                 <li>
                   <Link to="/admin">Admin</Link>
-                </li> */}
+                </li>  */}
               </ul>
             </div>
             <div className="nav-right-part nav-right-part-desktop style-black">
