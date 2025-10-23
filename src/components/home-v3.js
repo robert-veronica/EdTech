@@ -7,10 +7,12 @@ import AboutV4 from './section-components/about-v4';
 import AboutV5 from './section-components/about-v5';
 // import Team from './section-components/team-v2';
 import Footer from './global-components/footer-v2';
+import CampusToCorporate from './section-components/campusToCorporate';
 
 const Home_V2 = () => {
     return <div>
         <Navbar />
+        <CampusToCorporate />
         <Banner />
         <Intro />
         {/* <FeaturedCourse /> */}
